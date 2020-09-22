@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.example.bugly">
+    <!-- 电话状态读取权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 访问网络状态权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 访问wifi状态权限 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 日志读取权限 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+</manifest>
