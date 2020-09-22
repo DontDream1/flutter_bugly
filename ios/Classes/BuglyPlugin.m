@@ -1,5 +1,5 @@
 #import "BuglyPlugin.h"
-#import "Bugly.h"
+#import <Bugly/Bugly.h>
 
 @implementation BuglyPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
